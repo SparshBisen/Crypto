@@ -1,0 +1,59 @@
+2025-06-09 22:37:27,271 - main - INFO - MatchingEngine initialized
+2025-06-09 22:37:27,274 - main - INFO - MatchingEngine initialized
+2025-06-09 22:37:27,274 - main - INFO - Processing order: sell1 sell 1.0 BTC-USDT @ 50000
+2025-06-09 22:37:27,274 - main - INFO - Created new order book for BTC-USDT
+2025-06-09 22:37:27,274 - main - INFO - Order sell1 processed. Status: pending, Trades: 0
+2025-06-09 22:37:27,274 - main - INFO - Processing order: buy1 buy 0.5 BTC-USDT @ 50000
+2025-06-09 22:37:27,275 - main - INFO - Trade executed: f3a01a23-6b27-47ce-87e4-6d5a05834ba6 0.5 @ 50000
+2025-06-09 22:37:27,275 - main - INFO - Order buy1 processed. Status: filled, Trades: 1
+2025-06-09 22:37:27,275 - main - INFO - Processing order: market1 buy 0.3 BTC-USDT @ None
+2025-06-09 22:37:27,275 - main - INFO - Trade executed: fb1d59be-7314-4857-824e-8764d828bb72 0.3 @ 50000
+2025-06-09 22:37:27,275 - main - INFO - Order market1 processed. Status: filled, Trades: 1
+2025-06-09 22:37:27,275 - main - INFO - Processing order: ioc1 buy 1.0 BTC-USDT @ 50000
+2025-06-09 22:37:27,275 - main - INFO - Trade executed: 7c9c6b7d-1980-4fa5-9197-9507c83aa777 0.2 @ 50000
+2025-06-09 22:37:27,275 - main - INFO - Order ioc1 processed. Status: cancelled, Trades: 1
+2025-06-09 22:37:27,275 - main - INFO - Created new order book for ETH-USDT
+2025-06-09 22:37:27,275 - main - INFO - Processing order: eth_sell sell 2.0 ETH-USDT @ 3000
+2025-06-09 22:37:27,275 - main - INFO - Order eth_sell processed. Status: pending, Trades: 0
+2025-06-09 22:37:27,275 - main - INFO - Processing order: eth_buy buy 1.0 ETH-USDT @ 2900
+2025-06-09 22:37:27,275 - main - INFO - Order eth_buy processed. Status: pending, Trades: 0
+2025-06-09 22:37:27,275 - main - INFO - Processing order: pt1 sell 1.0 TEST-USDT @ 100
+2025-06-09 22:37:27,275 - main - INFO - Created new order book for TEST-USDT
+2025-06-09 22:37:27,275 - main - INFO - Order pt1 processed. Status: pending, Trades: 0
+2025-06-09 22:37:27,275 - main - INFO - Processing order: pt2 sell 1.0 TEST-USDT @ 100
+2025-06-09 22:37:27,275 - main - INFO - Order pt2 processed. Status: pending, Trades: 0
+2025-06-09 22:37:27,275 - main - INFO - Processing order: mb1 buy 0.5 TEST-USDT @ None
+2025-06-09 22:37:27,275 - main - INFO - Trade executed: 75bb6f55-0541-4ce3-8a42-7878f2dbb3f7 0.5 @ 100
+2025-06-09 22:37:27,275 - main - INFO - Order mb1 processed. Status: filled, Trades: 1
+2025-06-09 22:37:27,275 - main - INFO - MatchingEngine initialized
+2025-06-09 22:37:27,275 - main - INFO - Processing order: setup_sell_0 sell 1.0 BTC-USDT @ 50000
+2025-06-09 22:37:27,275 - main - INFO - Created new order book for BTC-USDT
+2025-06-09 22:37:27,275 - main - INFO - Order setup_sell_0 processed. Status: pending, Trades: 0
+2025-06-09 22:37:27,275 - main - INFO - Processing order: setup_sell_1 sell 1.0 BTC-USDT @ 50100
+2025-06-09 22:37:27,275 - main - INFO - Order setup_sell_1 processed. Status: pending, Trades: 0
+2025-06-09 22:37:27,275 - main - INFO - Processing order: setup_sell_2 sell 1.0 BTC-USDT @ 50200
+2025-06-09 22:37:27,275 - main - INFO - Order setup_sell_2 processed. Status: pending, Trades: 0
+2025-06-09 22:37:27,275 - main - INFO - Processing order: fok_fail buy 5.0 BTC-USDT @ 50200
+2025-06-09 22:37:27,275 - main - INFO - FOK order fok_fail cancelled - insufficient liquidity
+2025-06-09 22:37:27,275 - main - INFO - Order fok_fail processed. Status: cancelled, Trades: 0
+2025-06-09 22:37:27,275 - main - INFO - Processing order: fok_succeed buy 1.5 BTC-USDT @ 50200
+2025-06-09 22:37:27,275 - main - INFO - Trade executed: 34ba5de5-efbe-46b4-b1ca-5a75d60a7948 1.0 @ 50000
+2025-06-09 22:37:27,275 - main - INFO - Trade executed: aa1b8d13-22d9-4610-9491-014ec4878c69 0.5 @ 50100
+2025-06-09 22:37:27,275 - main - INFO - Order fok_succeed processed. Status: filled, Trades: 2
+2025-06-09 23:05:43,844 - __main__ - INFO - MatchingEngine initialized
+2025-06-09 23:06:20,119 - __main__ - INFO - Processing order: 7005c034-450a-4f45-928b-002f0d0a1077 sell 1.0 BTC-USDT @ 50000
+2025-06-09 23:06:20,119 - __main__ - INFO - Created new order book for BTC-USDT
+2025-06-09 23:06:20,120 - __main__ - INFO - Order 7005c034-450a-4f45-928b-002f0d0a1077 processed. Status: pending, Trades: 0
+2025-06-09 23:06:28,246 - __main__ - INFO - Processing order: 0b4b0656-b593-463a-b9c1-03c8e70c374f sell 0.5 BTC-USDT @ 50100
+2025-06-09 23:06:28,246 - __main__ - INFO - Order 0b4b0656-b593-463a-b9c1-03c8e70c374f processed. Status: pending, Trades: 0
+2025-06-09 23:06:37,695 - __main__ - INFO - Processing order: 09c9cf8c-813a-490c-a4c1-7590a5cbd8e3 buy 0.8 BTC-USDT @ 49900
+2025-06-09 23:06:37,696 - __main__ - INFO - Order 09c9cf8c-813a-490c-a4c1-7590a5cbd8e3 processed. Status: pending, Trades: 0
+2025-06-09 23:07:00,098 - __main__ - INFO - Processing order: 45875378-8911-4975-aa63-bf73da09a1b3 buy 0.7 BTC-USDT @ None
+2025-06-09 23:07:00,098 - __main__ - INFO - Trade executed: b3491375-b4a8-412e-99d7-feab2f11ba11 0.7 @ 50000
+2025-06-09 23:07:00,098 - __main__ - INFO - Order 45875378-8911-4975-aa63-bf73da09a1b3 processed. Status: filled, Trades: 1
+2025-06-09 23:07:28,851 - __main__ - INFO - Processing order: 500d70cf-4750-4883-b9e9-cfa2eba49342 buy 1.5 BTC-USDT @ 50000
+2025-06-09 23:07:28,851 - __main__ - INFO - Trade executed: 22573b8e-5448-4408-80ce-48320b3dd1db 0.3 @ 50000
+2025-06-09 23:07:28,851 - __main__ - INFO - Order 500d70cf-4750-4883-b9e9-cfa2eba49342 processed. Status: cancelled, Trades: 1
+2025-06-09 23:07:35,994 - __main__ - INFO - Processing order: cb0d1581-aac9-40b6-9456-c885e8d2f1b0 buy 5.0 BTC-USDT @ 50200
+2025-06-09 23:07:35,995 - __main__ - INFO - FOK order cb0d1581-aac9-40b6-9456-c885e8d2f1b0 cancelled - insufficient liquidity
+2025-06-09 23:07:35,995 - __main__ - INFO - Order cb0d1581-aac9-40b6-9456-c885e8d2f1b0 processed. Status: cancelled, Trades: 0

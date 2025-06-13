@@ -1,0 +1,66 @@
+/Users/SparshBisen/Desktop/FSD/GoQuant Assignment/main.py:663: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.5/migration/
+  @validator('order_type')
+/Users/SparshBisen/Desktop/FSD/GoQuant Assignment/main.py:669: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated. You should migrate to Pydantic V2 style `@field_validator` validators, see the migration guide for more details. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.5/migration/
+  @validator('side')
+2025-06-09 23:05:43,844 - __main__ - INFO - MatchingEngine initialized
+INFO:     Started server process [14697]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Starting Cryptocurrency Matching Engine...
+API Documentation: http://localhost:8000/docs
+WebSocket Endpoints:
+  - Trade Stream: ws://localhost:8000/ws/trades
+  - Market Data: ws://localhost:8000/ws/market-data/{symbol}
+  - BBO Stream: ws://localhost:8000/ws/bbo/{symbol}
+INFO:     127.0.0.1:51409 - "GET /docs HTTP/1.1" 200 OK
+2025-06-09 23:06:20,119 - __main__ - INFO - Processing order: 7005c034-450a-4f45-928b-002f0d0a1077 sell 1.0 BTC-USDT @ 50000
+2025-06-09 23:06:20,119 - __main__ - INFO - Created new order book for BTC-USDT
+2025-06-09 23:06:20,120 - __main__ - INFO - Order 7005c034-450a-4f45-928b-002f0d0a1077 processed. Status: pending, Trades: 0
+INFO:     127.0.0.1:51414 - "POST /orders HTTP/1.1" 200 OK
+2025-06-09 23:06:28,246 - __main__ - INFO - Processing order: 0b4b0656-b593-463a-b9c1-03c8e70c374f sell 0.5 BTC-USDT @ 50100
+2025-06-09 23:06:28,246 - __main__ - INFO - Order 0b4b0656-b593-463a-b9c1-03c8e70c374f processed. Status: pending, Trades: 0
+INFO:     127.0.0.1:51419 - "POST /orders HTTP/1.1" 200 OK
+2025-06-09 23:06:37,695 - __main__ - INFO - Processing order: 09c9cf8c-813a-490c-a4c1-7590a5cbd8e3 buy 0.8 BTC-USDT @ 49900
+2025-06-09 23:06:37,696 - __main__ - INFO - Order 09c9cf8c-813a-490c-a4c1-7590a5cbd8e3 processed. Status: pending, Trades: 0
+INFO:     127.0.0.1:51424 - "POST /orders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51429 - "GET /market-data/BTC-USDT?depth=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51433 - "GET /bbo/BTC-USDT HTTP/1.1" 200 OK
+2025-06-09 23:07:00,098 - __main__ - INFO - Processing order: 45875378-8911-4975-aa63-bf73da09a1b3 buy 0.7 BTC-USDT @ None
+2025-06-09 23:07:00,098 - __main__ - INFO - Trade executed: b3491375-b4a8-412e-99d7-feab2f11ba11 0.7 @ 50000
+2025-06-09 23:07:00,098 - __main__ - INFO - Order 45875378-8911-4975-aa63-bf73da09a1b3 processed. Status: filled, Trades: 1
+INFO:     127.0.0.1:51438 - "POST /orders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51442 - "GET /market-data/BTC-USDT HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51447 - "GET /bbo/BTC-USDT HTTP/1.1" 200 OK
+2025-06-09 23:07:28,851 - __main__ - INFO - Processing order: 500d70cf-4750-4883-b9e9-cfa2eba49342 buy 1.5 BTC-USDT @ 50000
+2025-06-09 23:07:28,851 - __main__ - INFO - Trade executed: 22573b8e-5448-4408-80ce-48320b3dd1db 0.3 @ 50000
+2025-06-09 23:07:28,851 - __main__ - INFO - Order 500d70cf-4750-4883-b9e9-cfa2eba49342 processed. Status: cancelled, Trades: 1
+INFO:     127.0.0.1:51452 - "POST /orders HTTP/1.1" 200 OK
+2025-06-09 23:07:35,994 - __main__ - INFO - Processing order: cb0d1581-aac9-40b6-9456-c885e8d2f1b0 buy 5.0 BTC-USDT @ 50200
+2025-06-09 23:07:35,995 - __main__ - INFO - FOK order cb0d1581-aac9-40b6-9456-c885e8d2f1b0 cancelled - insufficient liquidity
+2025-06-09 23:07:35,995 - __main__ - INFO - Order cb0d1581-aac9-40b6-9456-c885e8d2f1b0 processed. Status: cancelled, Trades: 0
+INFO:     127.0.0.1:51457 - "POST /orders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51466 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51466 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51471 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51471 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51478 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51480 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51480 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51483 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51483 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63323 - "POST /orders HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:63326 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63326 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63326 - "GET /orders HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:63329 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63329 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63329 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63329 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63329 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63329 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63329 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63329 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63331 - "POST /orders HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:63333 - "GET /orders HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:63338 - "GET /openapi.json HTTP/1.1" 200 OK
